@@ -1,4 +1,16 @@
 {
   "hello": "你好世界!",
-  "list": "参数1：{0}，参数2：{1}"
+  "list": "参数1：{0}，参数2：{1}",
+  "obj": "名字：{name}, 年龄：{age}",
+  "address": "{account}{'@'}{domain}",
+  "message": {
+    "the_world": "the world",
+    "dio": "DIO:",
+    "linked": "@:message.dio @:message.the_world !!!!",
+    "homeAddress": "Home address",
+    "missingHomeAddress": "Please provide @.lower:message.homeAddress",
+    "snake": "snake case",
+    "custom_modifier": "修改示例: @.snakeCase:{'message.snake'}"
+
+  }
 }
